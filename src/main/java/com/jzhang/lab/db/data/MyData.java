@@ -11,6 +11,16 @@ public class MyData {
 	private String first;
 	private String last;
 	private String lang;
+
+	
+	public MyData() {
+		super();
+		this.id = -1;
+		this.first = "none";
+		this.last = "none";
+		this.lang = "none";
+		// TODO Auto-generated constructor stub
+	}
 	
 	public int getId() {
 		return id;

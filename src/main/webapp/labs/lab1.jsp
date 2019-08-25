@@ -10,16 +10,16 @@
 <h2> The goal is to use Model/Control/View and in-mem H2 DB</h2>
 <h3> let's create a form used in lab1</h3>
 	<form action="AddData">
-		<input type="text" name="id"><br>
-		<input type="text" name="first"><br>
-		<input type="text" name="last"><br>
-		<input type="text" name="lang"><br>
+		Student ID: <input type="text" name="id"><br>
+		First Name: <input type="text" name="first"><br>
+		Last Name:  <input type="text" name="last"><br>
+		Language:   <input type="text" name="lang"><br>
 		<input type="submit"><br>
 	</form>
 	
 <h3> 1. require web, jpa, h2</h3>
 <h3> 2. code structure </h3>
-*.data		  ==> classes to model the data
+*.data		  ==> classes to model the data<br>
 *.controller  ==> classes to handle the data and views<br>
 *.dao		  ==> interfaces to built-in CRUD ops<br>
 webapp/labs/* ==> resources to model the views<br>
